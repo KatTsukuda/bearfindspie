@@ -7,7 +7,7 @@
 }
 
 .bear {
-  width: 10%;
+  width: 8%;
   display: block;
   position: absolute;
   margin: 5%;
@@ -24,17 +24,17 @@ h2 {
 
 .maze-block {
     border: 1px solid #dddddd;
-    background-color: blue;
+    background-color: #000000;
     padding: 8px;
 }
 
 .one {
-  margin-top: 22%;
+  margin-top: 18%;
   width: 50%;
   }
 
   .two {
-    margin-top: 10%;
+    margin-top: 14%;
     margin-left: 10%;
     width: 70%;
     float: right;
