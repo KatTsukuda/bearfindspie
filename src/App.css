@@ -2,21 +2,43 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+.maze {
+  width: 80%;
+}
+
+.bear {
+  width: 10%;
+  display: block;
+  position: absolute;
+  margin: 5%;
 }
 
 .App-header {
   background-color: #222;
-  height: 150px;
-  padding: 20px;
+  height: 100px;
   color: white;
 }
-
-.App-intro {
-  font-size: large;
+h2 {
+  padding: 30px 0 0 0;
 }
+
+.maze-block {
+    border: 1px solid #dddddd;
+    background-color: blue;
+    padding: 8px;
+}
+
+.one {
+  margin-top: 22%;
+  width: 50%;
+  }
+
+  .two {
+    margin-top: 10%;
+    margin-left: 10%;
+    width: 70%;
+    float: right;
+  }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
